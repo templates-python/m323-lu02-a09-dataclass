@@ -15,7 +15,7 @@ def test_add_member():
 
 def test_main_behavior():
     # Execute the main.py script and capture the output
-    result = subprocess.run(['python3', 'main.py'], capture_output=True, text=True)
+    result = subprocess.run(['python', 'main.py'], capture_output=True, text=True)
 
     # Expected output
     expected_output = (
