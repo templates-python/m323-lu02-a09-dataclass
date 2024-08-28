@@ -1,4 +1,7 @@
-# test_team.py
+"""
+This module contains tests for the Team class.
+"""
+
 from team import Team
 
 def test_team_initialization():

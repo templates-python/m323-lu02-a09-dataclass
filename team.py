@@ -1,3 +1,7 @@
+"""
+This module contains the Team class.
+"""
+
 from dataclasses import dataclass, field
 
 @dataclass

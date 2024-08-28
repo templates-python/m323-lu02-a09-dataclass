@@ -1,3 +1,7 @@
+"""
+This script demonstrates how to add a new member to a team.
+"""
+
 from team import Team
 
 def add_member(team, member):
