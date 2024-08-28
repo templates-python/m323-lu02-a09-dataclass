@@ -1,9 +1,10 @@
+from team import Team
+
 def add_member(team, member):
     """
     Adds a new member to the team's members list.
     """
-    #todo
-    pass
+    team.members.append(member)
 
 if __name__ == '__main__':
     team1 = Team(name='Team A')
