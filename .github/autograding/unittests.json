@@ -1,8 +1,26 @@
 [
   {
-    "name": "test",
-    "function": "test",
+    "name": "test_add_member",
+    "function": "test_add_member",
     "timeout": 10,
-    "points": 1
+    "points": 10
+  },
+  {
+    "name": "test_main_behavior",
+    "function": "test_main_behavior",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "test_team_initialization",
+    "function": "test_team_initialization",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "test_team_with_members",
+    "function": "test_team_with_members",
+    "timeout": 10,
+    "points": 10
   }
 ]
