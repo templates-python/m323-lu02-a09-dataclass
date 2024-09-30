@@ -18,9 +18,6 @@ def test_main_behavior():
     result = subprocess.run(['python', 'main.py'], capture_output=True, text=True)
 
     # Expected output
-    expected_output = (
-        "Team A Mitglieder: ['Alice']\n"
-        "Team B Mitglieder: ['Bob']\n"
-    )
+    expected_output = "Team A Mitglieder: ['Alice']\n" "Team B Mitglieder: ['Bob']\n"
 
     assert result.stdout == expected_output
