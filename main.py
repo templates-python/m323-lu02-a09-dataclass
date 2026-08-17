@@ -1,3 +1,8 @@
+"""Dataclass mit mutable Attribut.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu02/aufgaben/dataclass
+"""
+
 def add_member(team, member):
     """
     Adds a new member to the team's members list.
